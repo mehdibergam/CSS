@@ -1,0 +1,52 @@
+/* Border-box includes padding and borders in the width I set. */
+* {
+  box-sizing: border-box;
+}
+
+/* Tag selectors */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #172554;
+  background-color: #eff6ff;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  padding: 16px;
+  background-color: #1e40af;
+}
+
+nav a {
+  color: white;
+}
+
+main {
+  max-width: 640px;
+  margin: auto;
+  padding: 16px;
+}
+
+h1, h2 {
+  color: #1e40af;
+  margin-bottom: 8px;
+}
+
+p {
+  margin-top: 0;
+  line-height: 1.6;
+}
+
+/* Class selector */
+.card {
+  padding: 16px;
+  border: 1px solid #1e40af;
+  background-color: white;
+}
+
+/* ID selector */
+#home {
+  text-align: center;
+}
